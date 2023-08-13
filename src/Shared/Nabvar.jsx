@@ -12,7 +12,7 @@ const Nabvar = () => {
     </>
     return (
         <>
-            <div className="navbar md:mb-24 bg-slate-400">
+            <div className="navbar bg-slate-800 text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -24,7 +24,7 @@ const Nabvar = () => {
                     </div>
                     <div className="flex items-center justify-center">
                         <a className="btn btn-ghost normal-case text-xl">
-                            <img className="w-16 " src={logo} alt="" />
+                            <img className="w-14 rounded-full" src={logo} alt="" />
                         </a>
                          <h1 className="text-3xl font-semibold"> <span>Temp</span> Mail</h1>
                     </div>

@@ -5,14 +5,14 @@ import logo from '../../public/temp-mail.png'
 const Nabvar = () => {
 
     const navOpctions = <>
-        <Link ><li><a>Inbox</a></li></Link>
-        <Link ><li> <a>Get Email</a></li></Link>
-        <Link ><li><a>Blog</a></li></Link>
+        <li><Link>Inbox</Link></li>
+        <li><Link>Get Email</Link></li>
+        <li><Link>Blog</Link></li>
         
     </>
     return (
         <>
-            <div className="navbar bg-slate-800 text-white">
+            <div className="navbar px-4 py-6 md:px-10 bg-slate-800 text-white">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -22,11 +22,9 @@ const Nabvar = () => {
                             {navOpctions}
                         </ul>
                     </div>
-                    <div className="flex items-center justify-center">
-                        <a className="btn btn-ghost normal-case text-xl">
-                            <img className="w-14 rounded-full" src={logo} alt="" />
-                        </a>
-                         <h1 className="text-3xl font-semibold"> <span>Temp</span> Mail</h1>
+                    <div >
+                            <a className="flex items-center justify-center" href=""><img className="w-10 md:w-14 rounded-full mr-2" src={logo} alt="" />
+                         <h1 className="text-xl md:text-3xl font-semibold flex"> <span>Temp</span> <span className="text-teal-400">Mail</span></h1></a>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
@@ -35,7 +33,7 @@ const Nabvar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-2">
-                <button className="btn bg-yellow-400 rounded-l-3xl rounded-r-3xl">Premium</button>
+                <button className="btn btn-sm md:btn-md text-xs md:text-lg bg-yellow-400 text-black  hover:text-white font-normal rounded-3xl">Premium</button>
                 </div>
             </div>
         </>

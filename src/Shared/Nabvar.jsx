@@ -25,7 +25,7 @@ const Nabvar = () => {
                     </div>
                     <div >
                             <a className="flex items-center justify-center" href=""><img className="w-10 md:w-14 rounded-full mr-2" src={logo} alt="" />
-                         <h1 className="text-xl md:text-3xl font-semibold flex"> <span>Temp</span> <span className="text-teal-400">Mail</span></h1></a>
+                         <h1 className="text-xl md:text-3xl font-semibold flex"> <span>Curious</span> <span className="text-teal-400">Mail</span></h1></a>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">

@@ -7,14 +7,14 @@ import { useEffect, useState } from "react";
 import { nanoid } from 'nanoid';
 import QRCode from 'qrcode.react';
 const Banner = () => {
-    const [randomEmail, setRandomEmail] = useState('example@email.com');
+    const [randomEmail, setRandomEmail] = useState('example@curious.com');
     const [QRShow, setQRShow] = useState(false)
     const [copy, setCopy] = useState(false)
     const [remove, setRemove] = useState(false)
 
   const generateRandomEmail = () => {
     const randomString = nanoid(12);
-    const email = `${randomString}@email.com`; 
+    const email = `${randomString}@curious.com`; 
     setRandomEmail(email);
   };
 
@@ -43,7 +43,7 @@ const Banner = () => {
   }
   const handleDelete=()=>{
     setRemove(true)
-    setRandomEmail('example@email.com');
+    setRandomEmail('example@curious.com');
     setQRShow(false)
     setTimeout(() => {
         setRemove(false)

@@ -10,16 +10,13 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-            <div className=' bg-white py-10 w-full shadow-gray-300 shadow-md drop-shadow-md'>
+            <div className=' bg-white px-2 py-10 w-full shadow-gray-300 shadow-md drop-shadow-md'>
                 <div  className='flex flex-wrap w-full mx-auto gap-8 items-center justify-center'>
-                <Button title="copy" icon={<BiSolidCopy></BiSolidCopy>}></Button>
-                <Button title="Refresh" icon={<GrRefresh></GrRefresh>}></Button>
-                <Button title="Change" icon={<BsPencilSquare></BsPencilSquare>}></Button>
-                <Button title="Delete" icon={<LuDelete></LuDelete>}></Button>
+                <Button title="copy" toolTipData="Copy to Clipboard" icon={<BiSolidCopy></BiSolidCopy>}></Button>
+                <Button title="Refresh" toolTipData="Refresh Message List" icon={<GrRefresh></GrRefresh>}></Button>
+                <Button title="Change" toolTipData="Change E-mail Address" icon={<BsPencilSquare></BsPencilSquare>}></Button>
+                <Button title="Delete" toolTipData="Delete This Address" icon={<LuDelete></LuDelete>}></Button>
                 </div>
-            </div>
-            <div className='bg-white mb-10 text-black'>
-                
             </div>
         </div>
     );

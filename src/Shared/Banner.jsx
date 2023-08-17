@@ -10,7 +10,9 @@ const Banner = () => {
                         <p className="text-sm md:text-lg">jideles514@cwtaa.com</p>
                         <button className=""><HiQrcode className="bg-gray-700   absolute top-0 right-0 h-full w-10 md:w-14 rounded-full p-1 md:p-3 "></HiQrcode></button>
                     </div>
+                    <div className="tooltip tooltip-bottom" data-tip='Copy'>
                     <button><HiClipboardCheck className="bg-teal-400 hover:bg-gray-700 w-8 h-8 md:h-12  md:w-12 ml-2 md:ml-3 rounded-full p-1 md:p-2"></HiClipboardCheck></button>
+                    </div>
                 </div>
             </div>
             <div className="md:w-3/5 mx-auto text-gray-400 text-xs md:text-sm text-center mt-10">

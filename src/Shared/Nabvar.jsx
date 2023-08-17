@@ -5,9 +5,10 @@ import logo from '../../public/temp-mail.png'
 const Nabvar = () => {
 
     const navOpctions = <>
-        <li><Link>Inbox</Link></li>
-        <li><Link>Get Email</Link></li>
-        <li><Link>Blog</Link></li>
+        <li><Link to='/'>Home</Link></li>
+        <li><Link to='/inbox'>Inbox</Link></li>
+        <li><Link to='/getEmail'>Get Email</Link></li>
+        <li><Link to='/blog'>Blog</Link></li>
         
     </>
     return (

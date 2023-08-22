@@ -83,28 +83,28 @@ const Banner = () => {
         <div className=' bg-white px-2 py-10 w-full shadow-gray-300 shadow-md drop-shadow-md'>
                 <div  className='flex flex-wrap w-full mx-auto gap-8 items-center justify-center'>
                 <div className="md:tooltip md:tooltip-bottom" data-tip={copy ? 'Copied' :'Copy to Clipboard'}>
-                <button onClick={copyToClipboard} className='py-3 md:py-4 px-4 md:px-10 rounded-3xl flex items-center ease-in duration-200 text-gray-950 font-normal shadow-2xl drop-shadow-2xl bg-gray-200 hover:bg-green-600'>
+                <button onClick={copyToClipboard} className='py-3 md:py-4 px-4 md:px-10 rounded-3xl flex items-center ease-in duration-200 text-gray-950 font-normal shadow-lg drop-shadow-lg bg-gray-100 hover:bg-green-600'>
                 <p className='mr-4'>{<BiSolidCopy></BiSolidCopy>}</p>
                 <p className=''>copy</p>
             </button>
                 </div>
 
                 <div className="md:tooltip md:tooltip-bottom" data-tip='Refresh Message List'>
-                <button onClick={handleRefresh} className='py-3 md:py-4 px-4 md:px-10 rounded-3xl flex items-center ease-in duration-200 text-gray-950 font-normal shadow-2xl drop-shadow-2xl bg-gray-200 hover:bg-green-600'>
+                <button onClick={handleRefresh} className='py-3 md:py-4 px-4 md:px-10 rounded-3xl flex items-center ease-in duration-200 text-gray-950 font-normal shadow-lg drop-shadow-lg bg-gray-100 hover:bg-green-600'>
                 <p className='mr-4'>{<GrRefresh></GrRefresh>}</p>
                 <p className=''>Refresh</p>
             </button>
                 </div>
 
                 <div className="md:tooltip md:tooltip-bottom" data-tip='Change E-mail Address'>
-                <button onClick={generateRandomEmail} className='py-3 md:py-4 px-4 md:px-10 rounded-3xl flex items-center ease-in duration-200 text-gray-950 font-normal shadow-2xl drop-shadow-2xl bg-gray-200 hover:bg-green-600'>
+                <button onClick={generateRandomEmail} className='py-3 md:py-4 px-4 md:px-10 rounded-3xl flex items-center ease-in duration-200 text-gray-950 font-normal shadow-lg drop-shadow-lg bg-gray-100 hover:bg-green-600'>
                 <p className='mr-4'>{<BsPencilSquare></BsPencilSquare>}</p>
                 <p className=''>Change</p>
             </button>
                 </div>
 
                 <div className="md:tooltip md:tooltip-bottom" data-tip={remove ? 'Deleted' :'Delete This Address'}>
-                <button onClick={handleDelete}  className='py-3 md:py-4 px-4 md:px-10 rounded-3xl flex items-center ease-in duration-200 text-gray-950 font-normal shadow-2xl drop-shadow-2xl bg-gray-200 hover:bg-green-600'>
+                <button onClick={handleDelete}  className='py-3 md:py-4 px-4 md:px-10 rounded-3xl flex items-center ease-in duration-200 text-gray-950 font-normal shadow-lg drop-shadow-lg bg-gray-100 hover:bg-green-600'>
                 <p className='mr-4'>{<LuDelete></LuDelete>}</p>
                 <p className=''>Delete</p>
             </button>

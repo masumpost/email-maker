@@ -1,6 +1,6 @@
 const Inbox = () => {
   return (
-    <div className="bg-white py-20 px-4">
+    <div className="bg-white py-20 px-4 border-b">
       <div className="md:w-3/5 mx-auto border rounded-lg md:rounded-2xl ">
         <div className="bg-black flex justify-between px-5 py-5 text-white md:py-8 rounded-t-lg md:rounded-t-2xl">
           <h2>SENDER</h2>
@@ -59,6 +59,10 @@ const Inbox = () => {
           <h2 className="text-xl text-gray-900">Your inbox is empty</h2>
           <p className="text-md">Waiting for incoming emails</p>
           </div>
+      </div>
+      <div className="text-center md:w-3/5 mx-auto mt-10">
+        <h2 className="text-black text-3xl font-bold">What is Disposable Temporary E-mail?</h2>
+        <p className="text-gray-800 mt-5 tracking-tight text-sm text-justify"><span className="font-bold">Disposable email</span> - is a free email service that allows to receive email at a temporary address that self-destructed after a certain time elapses. It is also known by names like : tempmail, 10minutemail, 10minmail, throwaway email, fake-mail , fake email generator, burner mail or trash-mail. Many forums, Wi-Fi owners, websites and blogs ask visitors to register before they can view content, post comments or download something. Temp-Mail - is most advanced throwaway email service that helps you avoid spam and stay safe.</p>
       </div>
     </div>
   );
